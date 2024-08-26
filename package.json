@@ -1,0 +1,35 @@
+{
+  "name": "prueba-tecnica-chess",
+  "version": "1.0.0",
+  "description": "prueba tecnica",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "npx ts-node src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony3sord/Chess-API.git"
+  },
+  "keywords": [
+    "Chess",
+    "API",
+    "ApiChess"
+  ],
+  "author": "tony3sord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony3sord/Chess-API/issues"
+  },
+  "homepage": "https://github.com/tony3sord/Chess-API#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
